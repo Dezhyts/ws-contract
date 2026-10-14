@@ -1,0 +1,17 @@
+{
+  "name": "@dezhyts/ws-contract",
+  "version": "1.0.0",
+  "description": "Shared WebSocket contracts and types",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
